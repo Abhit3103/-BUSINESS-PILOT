@@ -34,7 +34,7 @@ export default function Login() {
           <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
             <div className="w-8 h-8 bg-primary rounded-full animate-pulse" />
           </div>
-          <CardTitle className="text-2xl font-bold tracking-tight">Admin Portal</CardTitle>
+          <CardTitle className="text-2xl font-bold tracking-tight">Business Pilot</CardTitle>
           <CardDescription>Sign in to manage Mokshita Enterprises</CardDescription>
         </CardHeader>
         

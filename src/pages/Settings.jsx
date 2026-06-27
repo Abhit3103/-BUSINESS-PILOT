@@ -242,11 +242,11 @@ export default function Settings() {
         <CardContent className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="storeName">Store Name</Label>
-            <Input id="storeName" defaultValue="Mokshita Enterprises" />
+            <Input id="storeName" defaultValue="Mokshita Enterprises · Business Pilot" />
           </div>
           <div className="space-y-2">
             <Label htmlFor="contactEmail">Contact Email</Label>
-            <Input id="contactEmail" type="email" defaultValue="support@mokshita.com" />
+            <Input id="contactEmail" type="email" defaultValue="support@businesspilot.app" />
           </div>
           <Button>Update Configuration</Button>
         </CardContent>

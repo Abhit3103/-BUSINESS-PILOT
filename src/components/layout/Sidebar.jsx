@@ -67,8 +67,8 @@ export function Sidebar({ open, setOpen, isMobile, setMobileOpen }) {
             animate={{ opacity: open ? 1 : 0, width: open ? 'auto' : 0 }}
             className="flex flex-col whitespace-nowrap"
           >
-            <span className="text-lg font-bold text-foreground tracking-tight">Mokshita</span>
-            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Workspace</span>
+            <span className="text-lg font-bold text-foreground tracking-tight">Business Pilot</span>
+            <span className="text-[10px] uppercase tracking-widest text-muted-foreground font-semibold">Mokshita Enterprises</span>
           </motion.div>
         </div>
         {!isMobile && (

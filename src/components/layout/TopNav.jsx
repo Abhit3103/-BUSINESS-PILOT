@@ -49,7 +49,7 @@ export function TopNav({ toggleMobileSidebar }) {
         <div className="flex items-center gap-3">
           <div className="hidden sm:block text-right">
             <p className="text-sm font-semibold text-foreground leading-none">{user?.full_name || 'Admin User'}</p>
-            <p className="text-xs text-muted-foreground mt-1">{user?.email || 'admin@mokshita.com'}</p>
+            <p className="text-xs text-muted-foreground mt-1">{user?.email || 'admin@businesspilot.app'}</p>
           </div>
           <button className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-primary to-purple-600 text-sm font-bold text-white shadow-lg shadow-primary/20 ring-2 ring-background hover:ring-primary/50 transition-all">
             {initials}
